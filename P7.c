@@ -3,7 +3,7 @@
 int main()
 {
    int n,x;
-   int c=0,pc=1;
+   int c=0,pc=1;//counts 2 as 1st prime (default)
    
    for(n=2;;n+=2)
    {   
