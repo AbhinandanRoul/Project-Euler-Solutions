@@ -37,7 +37,7 @@ public static long lcm(int[] a)
 		} 
 
 		
-		if (divisible) 
+		if (divisible==true) 
 		{ 
 			lcm = lcm * div; 
 		} 
