@@ -3,9 +3,9 @@
 int main()
 {
    int n,x;
-   int c=0,pc=0;
+   int c=0,pc=1;
    
-   for(n=2;;n++)
+   for(n=2;;n+=2)
    {   
        c=0;
        for(x=1;x<=n;x++)
