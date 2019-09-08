@@ -4,8 +4,8 @@ int main()
 {
    int n=2000000,x;
    int c,i;
-   int pc,s=0;
-   for(x=1;x<=n;x++)
+   int pc,s=2;//counts 2 as prime and takes sum
+   for(x=1;x<=n;x+=2)
    {
        c=0;
        i=2;
